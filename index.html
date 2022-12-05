@@ -1,207 +1,233 @@
-
 <!DOCTYPE html>
-<html lang="zh-CN" class="loading">
+<html>
+
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>幻の艺术</title>
+    <title>幻的碎碎念</title>
+    <!-- <link rel="shortcut icon" href="./favicon.ico" /> -->
+    <link type="text/css" rel="stylesheet" href="https://at.alicdn.com/t/font_1755564_z4mhxbw13mq.css"></link>
+    <link href="https://fonts.loli.net/css?family=Noto+Serif+SC:200,300,900&display=swap&subset=chinese-simplified" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta name="author" content="IoriMaboroshi" />
+    <meta charset="utf-8" />
+    <meta name="robots" content="index,follow" />
+    <meta name="google" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="verify" content="index,follow" />
+    <meta name="apple-mobile-web-app-title" content="幻的碎碎念">
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate" />
-    <meta name="keywords" content="Fechin,"> 
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+</head>
+<style type="text/css">
+    @media (prefers-color-scheme: dark) {
+        /* 夜间模式 */
+        body {
+            background-color: black;
+            color: white;
+        }
+        body .item {
+            border-top: 6px solid #888888;
+            background-color: rgb(21, 32, 43);
+            color: #ccc;
+        }
+        body time {
+            color: #aaa;
+        }
+        h1 {
+            color: #ffffff;
+        }
+        aside {
+            color: #ccc;
+        }
+        body .load-btn {
+            background-color: #000;
+            color: #ddd;
+        }
+        body .load-btn:hover:active {
+            background: #1DA1F2;
+            color: #fff;
+        }
+    }
     
-    <meta name="author" content="伊織幻"> 
-    <link rel="alternative" href="atom.xml" title="幻の艺术" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
+    [v-cloak] {
+        display: none;
+    }
     
+    html {
+        font-size: 20px;
+    }
     
-    
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="幻の艺术"/>
-    
-    
-    
-    
-    
-    <meta property="og:site_name" content="幻の艺术"/>
-    <meta property="og:type" content="object"/>
-    <meta property="og:title" content="幻の艺术"/>
-    
-    
-<link rel="stylesheet" href="/css/diaspora.css">
+    pre {
+        white-space: pre-wrap;
+    }
 
-    <script>window.searchDbPath = "/search.xml";</script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-<body class="loading">
-    <span id="config-title" style="display:none">幻の艺术</span>
-    <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="//" title="首页" target="_blank" rel="noopener">首页</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/categories/" title="分类" target="_blank" rel="noopener">分类</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/tags/" title="标签" target="_blank" rel="noopener">标签</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/archives/" title="归档" target="_blank" rel="noopener">归档</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/about/" title="关于" target="_blank" rel="noopener">关于</a>
-        </li>
-        
-    </ul>
-	<span class="target"></span>
-	<center>
-	<div class="hitokoto">
-		<span class="typed" id="hitokoto" data-st="true"></span>
-	</div>
-	</center>
-	
-	<p class="footerlinks">
-		<a href="#" class="iconfont icon-null"></a>
-		
-            <a href="/" title="facebook" class="iconfont icon-facebook" target="_blank" rel="noopener"> </a>
-        
-            <a href="/" title="twitter" class="iconfont icon-twitter" target="_blank" rel="noopener"> </a>
-        
-            <a href="/" title="github" class="iconfont icon-github" target="_blank" rel="noopener"> </a>
-        
-            <a href="/" title="wechat" class="iconfont icon-wechat" target="_blank" rel="noopener"> </a>
-        
-            <a href="mailto:thechwinlyu@outlook.com" title="email" class="iconfont icon-email" target="_blank" rel="noopener"> </a>
-        
-		<a href="#" class="iconfont icon-null"></a>
-	</p>
-	
-    <p id="copyright">
-        &copy; 2022 伊織幻.
-        <span> | </span>Powered by <a href="https://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        <span> | </span>Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a> by Fechin
-		
-    </p>
-</div>
-
-<div id="container">
+    body,
+    button {
+        font-family: 'Noto Serif SC', serif;
+    }
     
-<div id="screen">
-    <div id="mark">
-        <div class="layer" data-depth="0.4">
-            <img src="/img/welcome-cover.jpg" id="cover" crossorigin="anonymous" width="1920" height="1080">
+    aside {
+        font-weight: 300;
+        font-style: normal;
+        line-height: 1.8rem;
+    }
+    
+    #app,
+    header,
+    footer {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    h1 {
+        font-weight: 900;
+    }
+    
+    footer {
+        font-size: 0.8rem;
+        clear: both;
+    }
+    
+    .tip {
+        color: #999;
+    }
+    
+    .item {
+        font-weight: 300;
+        font-style: normal;
+        line-height: 1.8rem;
+        background: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        margin-top: 20px;
+        border-top: 6px solid;
+        text-align: justify;
+    }
+    
+    .item a {
+        text-decoration: none;
+        color: #5dafd5;
+    }
+    
+    time {
+        font-weight: 200;
+        color: #bbb;
+    }
+    
+    .center-text {
+        text-align: center;
+    }
+    
+    .load-ctn {
+        width: 100%;
+    }
+    
+    .load-btn {
+        border: 2px solid #666;
+        width: 130px;
+        outline: none;
+        font-size: 20px;
+        border-radius: 100px;
+        margin: 30px auto;
+        color: #666;
+        line-height: 30px;
+        float: right;
+        background: #fff;
+    }
+    
+    .load-btn:hover:active {
+        background: #666;
+        color: #fff;
+    }
+</style>
+<body>
+    <header id="header">
+        <h1>幻的碎碎念</h1>
+    </header>
+    <main id="app">
+        <aside>
+            <p id="describe">
+                一个怪癖的高中生...这里是TA的碎碎念...
+            </p>
+        </aside>
+        <p class="tip">现在叨叨了 {{count}} 条</p>
+        <section class="item" v-for="item in contents" v-cloak>
+            <p v-html='item.attributes.content'></p>
+            <time v-bind:datetime="item.attributes.time">{{item.attributes.time}}</time>
+        </section>
+        <div class="load-ctn">
+            <button class="load-btn" v-on:click="loadMore" v-if="contents" v-cloak>再翻翻嘛？</button>
+            <p class="tip" v-else>别急嘛~加载呢</p>
         </div>
-    </div>
-    <div id="vibrant">
-        <svg viewbox="0 0 2880 1620" height="100%" preserveaspectratio="xMaxYMax slice">
-            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
-        </svg>
-        <div></div>
-    </div>
-    <div id="header">
-        <div>
-            <a class="image-logo" href="/"></a>
-			
-            <div class="iconfont icon-menu switchmenu"></div>
-        </div>
-    </div>
-    
-    <div id="post0">
-        <p>十一月 11, 2022</p>
-        <h2><a href="/2022/11/11/hello-world/" title="Hello World" class="posttitle">Hello World</a></h2>
-        <p class="summary">Welcome to Hexo! This is your very first post. Check docu...</p>
-    </div>
-    
-</div>
-
-    <div id="primary">
-        
-    </div>
-    
-</div>
-<div id="preview"></div>
-
-
-
+    </main>
+    <footer>
+        <p class="center-text">Copyright © 2020 daibor, All Rights Reserved</p>
+    </footer>
 </body>
+<script src="https://cdn.bootcss.com/vue/2.6.11/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.5.3/dist/av-min.js"></script>
+<script type="text/javascript">
+    var {
+        Query
+    } = AV;
+    AV.init({
+        appId: "SqjRztuQMSIHilmn0kPMi0dg-MdYXbMMI", //你的 leancloud 应用 id （设置-应用keys-AppID）
+        appKey: "dDSqTfsZpseU6omhueRfQS6O", //你的 leancloud 应用 AppKey （设置-应用keys-AppKey）
+    });
 
+    var query = new AV.Query('content');
 
-<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/typed.js"></script>
-<script src="/js/diaspora.js"></script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            page: 0,
+            count: 0,
+            contents: []
+        },
+        methods: {
+            loadMore: function(event) {
+                getData(++this.page);
+            }
+        }
+    })
 
+    function urlToLink(str) {
+        var re = /(http|ftp|https):\/\/[\w-]+(.[\w-]+)+([\w-.,@?^=%&:/~+#]*[\w-\@?^=%&/~+#])?/g;;
 
-<link rel="stylesheet" href="/photoswipe/photoswipe.css">
-<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+        str = str.replace(re, function(website) {
+            return "<a href='" + website + "' target='_blank'> <i class='iconfont icon-lianjie-copy'></i>链接 </a>";
+        });
+        return str;
+    }
 
+    function getData(page = 0) {
+        query.descending('createdAt').skip(page * 20).limit(20).find().then(function(results) {
+            if (results.length == 0) {
+                alert('没有了啦！rua！')
+            } else {
+                let resC = results;
+                reqData = false;
+                resC.forEach((i) => {
+                    let dateTmp = new Date(i.createdAt);
+                    i.attributes.time = `${dateTmp.getFullYear()}-${(dateTmp.getMonth() + 1) < 10 ? ('0' + (dateTmp.getMonth()+1)) : dateTmp.getMonth()+1}-${(dateTmp.getDate() + 1) < 10 ? ('0' + dateTmp.getDate()) : dateTmp.getDate()} ${(dateTmp.getHours() + 1) <= 10 ? ('0' + dateTmp.getHours()) : dateTmp.getHours()}:${(dateTmp.getMinutes() + 1) <= 10 ? ('0' + dateTmp.getMinutes()) : dateTmp.getMinutes()}`;
+                    i.attributes.content = "<pre>" + urlToLink(i.attributes.content) + "</pre>";
+                    app.contents.push(i);
+                })
+            }
 
-<script src="/photoswipe/photoswipe.min.js"></script>
-<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+        }, function(error) {});
+    }
 
+    getData(0);
 
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-
-
+    query.count().then(function(count) {
+        app.count = count;
+    }, function(error) {});
+</script>
 
 </html>
